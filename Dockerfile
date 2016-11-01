@@ -1,6 +1,9 @@
-FROM alpine:latest
-MAINTAINER Peter Winter <peter@pwntr.com>
-LABEL Description="Simple and lightweight nzbget docker container, based on Alpine Linux." Version="0.1"
+FROM hypriot/rpi-alpine-scratch
+
+RUN apk update && \
+apk upgrade && \
+apk add bash && \
+rm -rf /var/cache/apk/*
 
 # copy init files
 RUN mkdir /setup
