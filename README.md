@@ -10,7 +10,7 @@ docker run -d -p 6789:6789 -v /path/to/downloads:/downloads --name nzbget pwntr/
 
 With your own config (make sure to adjust the paths and your logging preferences inside your config file):
 ```shell
-docker run -d -p 6789:6789 -v /path/to/config:/config -v /path/to/downloads:/downloads --name nzbget pwntr/nzbget-alpine
+docker run -d -p 6789:6789 -v /path/to/config:/config -v /path/to/downloads:/downloads --name nzbget pwntr/nzbget-alpines
 ```
 
 To have the container start when the host boots, add docker's restart policy:
