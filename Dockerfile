@@ -1,6 +1,6 @@
-#FROM hypriot/rpi-alpine-scratch
+FROM hypriot/rpi-alpine-scratch
 
-FROM scratch
+#FROM scratch
 LABEL architecture="ARMv7"
 
 # copy init files
