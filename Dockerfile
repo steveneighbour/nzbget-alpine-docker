@@ -1,6 +1,7 @@
 #FROM hypriot/rpi-alpine-scratch
 
-FROM casept/alpine-armhf:latest
+FROM scratch
+LABEL architecture="ARMv7"
 
 # copy init files
 RUN mkdir /setup
