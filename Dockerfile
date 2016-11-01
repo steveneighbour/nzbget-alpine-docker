@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM armhf/alpine:latest
 MAINTAINER Peter Winter <peter@pwntr.com>
 LABEL Description="Simple and lightweight nzbget docker container, based on Alpine Linux." Version="0.1"
 
